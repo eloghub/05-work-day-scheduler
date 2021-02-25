@@ -19,7 +19,11 @@ Assignment 5: Create a simple calendar application that allows a user to save ev
 
 ## NOTES/CHALLENGES:
 
-+ (HTML/CSS/JS) - 
++ (HTML/JS) - displaying the current date was done by creating a function in the javascript file that called the "currentDate" id in the html document and placed a [moment.js format](https://momentjs.com/docs/#/displaying/format/) to display the day of the week, month and date
+
++ (HTML/CSS) - I created a [grid](https://getbootstrap.com/docs/5.0/layout/grid/) and changed the divs to buttons and textareas that correspond with the css file. I also changed the column widths for the time block, textareas and buttons to be 1, 10 and 1
+
++ (HTML) - save button icon's i tag was found [here](https://fontawesome.com/icons/save)
 
 
 ### SCREENSHOT:
