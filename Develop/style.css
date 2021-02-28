@@ -71,5 +71,5 @@ body {
   }
   
   i {
-    position: relative;
+    display: flex;
   }

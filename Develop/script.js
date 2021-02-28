@@ -1,17 +1,19 @@
-var hourContainers = $("time-block");
+var hourContainers = $(".time-block");
 
 $(document).ready(function(){
   //displays current day in the header
-  $("#currentDay").text(moment().format("dddd, MMMM Do"))
+  $("#currentDay").text(moment().format("dddd, MMMM Do"));
     //
   hourContainers.each(function(){
     console.log($(this).attr("data-hour"));
-    // console.log(hourContainers[0].attr("id"))
-  });
+
+  // if (hourContainers === (moment().hour()){
+  // then $("#currentDay").text(moment().format("dddd, MMMM Do")).addClass("present");
+
+  // });
 });
 
-//function to change color of timeblocks according to what time it is
-// if (moment() < $(".hour")){
-//   then 
-// }
+//end of document function
+});
 
+//allows save button to store
