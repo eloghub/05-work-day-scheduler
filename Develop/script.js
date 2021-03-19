@@ -16,4 +16,6 @@ $(document).ready(function(){
 });
 
 //allows save button to store
-// localStorage.setItem()
+$(.saveBtn).on("click", function(){
+  localStorage.setItem
+});
