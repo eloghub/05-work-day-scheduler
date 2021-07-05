@@ -1,4 +1,6 @@
 var hourContainers = $(".time-block");
+var note = $(".time-block").val
+var saveButton =$(".saveBtn")
 
 $(document).ready(function(){
   //displays current day in the header
@@ -16,6 +18,9 @@ $(document).ready(function(){
 });
 
 //allows save button to store
-$(".saveBtn").on("click", function(){
-  localStorage.setItem
-});
+saveButton.onclick = saveData;
+
+function saveData(){
+  localStorage.setItem("server", note.value);
+  var storedValue = localStorage.getItem("server");
+};
