@@ -29,9 +29,9 @@ Assignment 5: Create a simple calendar application that allows a user to save ev
 ### SCREENSHOT:
 
 ```md
-![#-screenshot](./Assets/#.jpg)
+![demo](/Assets/demo.JPG)
 ```
 
 ### LINK:
 
-* [deployed application](#)
+* [deployed application](https://eloghub.github.io/05-work-day-scheduler/)
